@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['healthy', 'red_spider_mite', 'rust_level_1', 'rust_level_2', 'rust_level_3', 'rust_level_4']
+
+roboflow:
+  workspace: env-4hzu8
+  project: rocole-wm47e
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/env-4hzu8/rocole-wm47e/dataset/3
